@@ -1,5 +1,7 @@
 /*!------------------------------------------------------------------
-[MAIN STYLESHEET]
+Walsom blue: #0c5c94
+Green: #d8d526
+Letter over gray background : #2c2c2c
 
 Template Name: Constra - Construction Html5 Template
 Description: Constra - Construction Html5 Template
@@ -213,7 +215,7 @@ a:focus {
 }
 
 .bg-overlay:after {
-  background-color: rgba(0, 46, 91, 0.8);
+  /*background-color: rgba(0, 46, 91, 0.8);*/
   z-index: 0;
   position: absolute;
   content: '';
@@ -228,7 +230,7 @@ a:focus {
 }
 
 .bg-overlay:after {
-  background-color: rgba(0, 0, 0, 0.8);
+  /*background-color: rgba(0, 0, 0, 0.8);*/
   z-index: 0;
   position: absolute;
   content: '';
@@ -2441,8 +2443,8 @@ img.testimonial-thumb {
 ================================================== */
 /*- Footer common */
 .footer {
-  background-color: #0d0d0d;
-  color: #999;
+  background-color: #ebebeb;
+  color: #2c2c2c;
 }
 
 .footer-main {
@@ -2456,7 +2458,7 @@ img.testimonial-thumb {
   margin: 0 0 30px;
   padding-left: 15px;
   text-transform: uppercase;
-  color: #fff;
+  color: #2c2c2c;
   border-left: 3px solid #d8d526;
 }
 
@@ -2511,12 +2513,12 @@ img.testimonial-thumb {
 
 .footer-widget ul.list-arrow li a,
 .footer-widget ul.list-arrow li:before {
-  color: #747474;
+  color: #2c2c2c;
 }
 
 .footer-widget ul.list-arrow li:hover a,
 .footer-widget ul.list-arrow li:hover {
-  color: #d8d526;
+  color: #0c5c94;
 }
 
 .working-hours {
