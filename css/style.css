@@ -1901,6 +1901,12 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 .ts-service-classic:hover .ts-service-icon i {
   background: #d8d526;
 }
+.service-icon{
+  margin-left: 80px;
+  width: 10px;
+  height: 10px;
+
+}
 
 /* Projects area
 ================================================== */
@@ -2190,6 +2196,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .clients-logo img {
+  height : 70px;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   -webkit-filter: gray;
@@ -3485,6 +3492,13 @@ label {
   color: #fff;
   border: 1px solid transparent;
 }
+/*.ts-service-box-img img{
+  width: 60%;
+  height: auto;
+  margin: auto;
+  display: block;
+
+}*/
 
 /* Error page
 ================================================== */
