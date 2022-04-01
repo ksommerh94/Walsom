@@ -171,6 +171,7 @@ jQuery(function ($) {
 
 		// Shuffle js filter and masonry
 		function projectShuffle() {
+			
 			if ($('.shuffle-wrapper').length !== 0) {
 				var Shuffle = window.Shuffle;
 				var myShuffle = new Shuffle(document.querySelector('.shuffle-wrapper'), {
@@ -178,6 +179,8 @@ jQuery(function ($) {
 					sizer: '.shuffle-sizer',
 					buffer: 1
 				});
+				myShuffle.filter('commercial');
+
 				$('input[name="shuffle-filter"]').on('change', function (evt) {
 					var input = evt.currentTarget;
 					if (input.checked) {
