@@ -171,7 +171,7 @@ jQuery(function ($) {
 
 		// Shuffle js filter and masonry
 		function projectShuffle() {
-			
+
 			if ($('.shuffle-wrapper').length !== 0) {
 				var Shuffle = window.Shuffle;
 				var myShuffle = new Shuffle(document.querySelector('.shuffle-wrapper'), {
@@ -262,6 +262,8 @@ jQuery(function ($) {
 		}
 		mediaPopup();
 
+
+		
 	});
 
 
