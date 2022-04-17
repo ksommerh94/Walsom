@@ -1691,13 +1691,19 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 .ts-facts .ts-facts-content .ts-facts-num {
   color: #fff;
-  font-size: 44px;
+  font-size: 20px;
   margin: 30px 0 20px;
 }
 
 .ts-facts .ts-facts-content .ts-facts-title {
   font-size: 16px;
   color: #faca30;
+  margin: 0;
+}
+
+.ts-facts .ts-facts-content .ts-facts-title-2 {
+  font-size: 10px;
+  color: white;
   margin: 0;
 }
 
@@ -2196,7 +2202,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .clients-logo img {
-  height : 50px;
+  height : 70px;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   -webkit-filter: gray;
